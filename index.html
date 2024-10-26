@@ -39,18 +39,18 @@
     <header>
         <div class="container-fluid px-0" >
             <!-- header h1/menu -->
-            <section class="container-sm text  px-0 ">
-                <div class="row g-0">
-                    <div class="col-6">
+            <section class="container-sm text px-0 ">
+                <div class="row g-0" id="holo">
+                    <div class="col-6" id="holo1">
                         <h1><img src="img/logo.png" width="40" height="40" style="border-radius: 70%;"> <span>swjb 조용빈</span></h1>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6" id="holo2">
                         <nav class="nav justify-content-end align-items-center">
-                            <a class="nav-link active" aria-current="page" href="#z" style="color: black;">온다소개</a>
-                            <a class="nav-link" href="#" style="color: black;">온다일기</a>
-                            <a class="nav-link" href="#" style="color: black;">온다플젝</a>
-                            <a class="nav-link" href="#" style="color: black;">문의하기</a>
-                          </nav>
+                            <a class="nav-link active" aria-current="page" href="#z" style="color: black;">용빈소개</a>
+                            <a class="nav-link" href="#" style="color: black;">용빈일기</a>
+                            <a class="nav-link" href="#" style="color: black;">용빈플젝</a>
+                            <a class="nav-link" href="#" style="color: black;">용빈하기</a>
+                        </nav>
                     </div>
                 </div>
             </section>
@@ -99,20 +99,28 @@
     </div>
 
 
-    <div class="container-fluid bg-secondary px-0">
+    <div class="container-fluid bg-secondary-subtle px-0" id="sbmainpc">
         <!-- 서브비주얼영역 -->
         <section class="container-sm px-0">
             <div class="row g-0">
-                <div class="col-12  bg-danger">
-                    메인비주얼영역 슬로건 및 서비스
+                <div class="col-12 col-lg-7" id="ybsb">
+                    <span class="sbmain">온다</span><br>
+                    내삶예술가 <br>
+
+                    <nav>꿈은, 현실로 온다.<br>
+                    Dream come ture<br></nav>
+
+                    내삶예술 3막 시작.<br>
+                    ​새로운 엔딩으로 신청년이 온다.<br>
+                    ​독립, 성숙, 거듭남으로 간다.<br>
+                    영화는 감독의 예술,<br>
+                    드라마는 작가의 예술,<br>
+                    연극은 배우의 예술<br>
+                    그리고 삶은 나의 예술!
                     <div style="height: 100px;"></div>
                 </div>
-                <div class="col-12 col-lg-4 bg-primary-subtle">
-                    메인비주얼영역 캐릭터 일러
-                    <div style="height: 100px;"></div>
-                </div>
-                <div class="col-12 col-lg-8 bg-primary">
-                    메인비주얼영역 간략 소개 및 철학
+                <div class="col-12 col-lg-5">
+                    <img src="img/my_artchar.png" id="ybpt" height="350" width="350">
                     <div style="height: 100px;"></div>
                 </div>
             </div>
@@ -120,62 +128,64 @@
         <!-- //서브비주얼영역 -->
     </div>
 
-    <div class="container-sm px-0">
+    <div class="container-sm px-0" id="photoshop">
         <!-- 이수과목영역 -->
         <section class="container-sm px-0">
             <div class="row g-0">
-                <div class="col-12 col-lg-6 bg-info">
-                    포토샵 이미지
+                <div class="col-12 col-lg-5">
+                   <img src="img/phtoshop_small.png" id="PS" height="300" width="350">
                     <div style="height: 100px;"></div>
                 </div>
-                <div class="col-12 col-lg-6 bg-dark-subtle">
-                    아트하는 개발자가 온다! <br>
-                    누구나 디자인을 해야만 하는 시대 <br>
-                    누구나 기자인을 할 수 있는 환경.
-                    <div style="height: 100px;"></div>
+                <div class="col-12 col-lg-7">
+                    <span class="art">아트하는 개발자가 온다! </span><br>
+                    <nav>누구나 디자인을 해야만 하는 시대 <br>
+                    누구나 기자인을 할 수 있는 환경.</nav>
                 </div>
             </div>
         </section>
         <!-- //이수과목영역 -->
     </div>
 
-    <div class="container-sm px-0">
+    <div class="container-fluid px-0 bg-black" id="figmatool">
         <!-- 이수과목영역 -->
         <section class="container-sm px-0">
             <div class="row g-0">
-                <div class="col-12 col-lg-6 bg-primary-subtle">
-                    피그마 이미지
-                    <div style="height: 100px;"></div>
+                <div class="col-12 col-lg-7">
+                    <span>공유와 협업의 가치</span><br>
+                    <nav>사람과 사람 관계, 사람과 기술 사이의 힘.<br>
+                    AI와 Tool이 만난 기술, 그 기술을 넘어선 활용과 창조</nav>
                 </div>
-                <div class="col-12 col-lg-6 bg-success">
-                    공유와 협업의 가치<br>
-                    사람과 사람 관계, 사람과 기술 사이의 힘.<br>
-                    AI와 Tool이 만난 기술, 그 기술을 넘어선 활용과 창조
-                    <div style="height: 100px;"></div>
+                <div class="col-12 col-lg-5">
+                    <img src="img/figma_small.png" id="figma" height="300" width="350">
+                </div>
+                <div style="height: 100px;"></div>
+            </div>
+        </section>
+        <!-- //이수과목영역 -->
+    </div> 
+
+    <div class="container-fluid px-0" id="websd">
+        <!-- 이수과목영역 -->
+        <section class="container-fluid px-0">
+            <div class="row g-0">
+                <div class="col-12 bg-secondaryvs">
+                    <img src="img/html,css,js.png">
+                    <div class="bc"></div>
+                    <div class="textwrap">
+                        <span>웹표준(Web Standard)</span> <br>
+                        <p class="lol">기초를 단단하게. 사용성과 접근성을 유효하게, 바른 정보가 사용자에게 정확히 도착하게,</p>
+                        <p class="valo">웹표준을 지키는 3대장 HTML5, CSS3, JS와 늘 함께 합니다.</p>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- //이수과목영역 -->
     </div>
-
-    <div class="container-sm px-0">
-        <!-- 이수과목영역 -->
-        <section class="container-sm px-0">
-            <div class="row g-0">
-                <div class="col-12 col-lg-12 bg-warning">
-                    웹표준(Web Standard) <br>
-                    기초를 단단하게. 사용성과 접근성을 유효하게, 바른 정보가 사용자에게 정확히 도착하게,<br>
-                    웹표준을 지키는 3대장 HTML5, CSS3, JS와 늘 함께 합니다.
-                    <div style="height: 100px;"></div>
-                </div>
-            </div>
-        </section>
-        <!-- //이수과목영역 -->
         <div class="container-fluid px-0">
             <!-- 위대한 것은 시 영역 -->
             <section class="container-sm px-0">
                 <div class="row g-0">
-                    <div class="col-12 col-lg-6 bg-danger">
+                    <div class="col-12 col-lg-6" id="great">
                         위대한 것은 온다의 일들이니<br>
                         진정성과 성실을 향한 태도가 변함없는 일,<br>
                         공적,사적 그 어떤 관계에서도 늦지 않게 도착하는 일,<br>
@@ -191,57 +201,64 @@
                         꿈과 삶을 나의 예술로 만드는 일,<br>
                         그리고 나를 사랑하는 일.
                     </div>
-                    <div class="col-12 col-lg-6 bg-primary-subtle">
+                    <div class="col-12 col-lg-6" id="phone">
                         <iframe src="http://ondaftp.dothome.co.kr/20240615/sample_24061502.html" width="376" height="720" style="border:0;border-radius:50px;"></iframe>
                     </div>
                 </div>
             </section>
             <!-- // 위대한 것은 시 영역 -->
 
-        <div class="container-fluid px-0">
+        <div class="container-fluid px-0" id="visual">
             <!-- 위대한 것은 시 - 비주얼 영역 -->
-            <section class="container-sm px-0">
-                <div class="row g-0">
-                    <div class="col-12 bg-secondary">
-                        위대한 것은 온다의 일
+            <section class="container-fluid px-0 bg-warning-subtle">
+                <div class="row g-0" id="winner">
+                    <div class="col-12" id="amg">
+                        <span>위대한</span> 것은 용빈의 일
                     </div>
-                    <div class="col-12 col-lg-4 bg-warning">
-                        이미지 1 <br>
-                        나를 사랑하는 일
+                    <div class="col-12 col-lg-4" id="moning">
+                        <img src="/img/moning.png" width="300" height="300"><br>
+                        <p>아침에 일어나 하루를 반기는 모습</p>
                     </div>
-                    <div class="col-12 col-lg-4 bg-info">
-                        이미지 2 <br>
-                        수업을 위해 다양한 시도를 해보는 일
+                    <div class="col-12 col-lg-4" id="program">
+                       <img src="/img/class_program.png" width="300" height="300"><br>
+                        <p>프로그램을 공부하는 일</p>
                     </div>
-                    <div class="col-12 col-lg-4 bg-primary">
-                        이미지 3 <br>
-                        미래유망 친구들과 이야기 나누며 웃을 수 있는 일
+                    <div class="col-12 col-lg-4" id="class">
+                        <img src="img/classimg.png" width="300" height="300"><br>
+                        <p>수업의 내용을 필기하는 일</p>
                     </div>
                 </div>
             </section>
             <!-- // 위대한 것은 시 - 비주얼 영역 -->
         </div>
+        <hr>
     <!-- //contenrs Wrapper -->
-
         <!-- footer -->
         <footer>
             <div class="container-fluid px-0">
     
                 <!-- copyright  -->
-                <section class="container-sm text bg-success px-0 ">
+                <section class="container-sm text px-0 " id="footer">
                     <div class="row g-0">
-                        <div class="col-12 col-lg-8 bg-danger">
-                            <div>
-                                <p>미래유망 온다쌤</p>
-                                <p>010-8050-1119 |<a href="mailto:on.da@kakao.com">on.da@kakao.com</a></p>
-                                <p>미래유망 온다쌤 사이트에서 사용한 디지털그래픽은 ChatGPT4o 로 만들었습니다.</p>
-                                <p>Copyright(c)2024 온다 All rights reserved</p>
+                        <div class="col-12 col-lg-8" id="fto">
+                            <div class="d-flex">
+                                <div class="logo">
+                                    <img src="img/logo.png" width="120" height="120" style="border-radius: 70%;">
+                                </div>
+                                <div class="popo">
+                                    <p class="mire">미래유망 조용빈</p>
+                                    <p class="calling">010-6408-8951 | yong08k@naver.com</p>
+                                    <p class="site">미래유망 온다쌤 사이트에서 사용한 디지털그래픽은 ChatGPT4o 로 만들었습니다.</p>
+                                    <p class="copy">Copyright(c)2024 조용빈 All rights reserved</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 bg-dark-subtle">
-                            <a href="#" target="_blank"><img src="img/icon_kakao.png" width="40" height="40"></a>
-                            <a href="#" target="_blank"><img src="img/icon_instagram.png" width="40" height="40"></a>
-                            <a href="#" target="_blank"><img src="img/icon_naverblog.png" width="40" height="40"></a>
+                        <div class="col-12 col-lg-4" id="ftt">
+                            <div class="icon">
+                                <a href="#" target="_blank"><img src="img/icon_kakao.png" width="40" height="40" id="kakao"></a>
+                                <a href="#" target="_blank"><img src="img/icon_instagram.png" width="40" height="40" id="insta"></a>
+                                <a href="#" target="_blank"><img src="img/icon_naverblog.png" width="40" height="40" id="naver"></a>
+                                </div>
                         </div>
                     </div>
                 </section>
@@ -259,6 +276,7 @@
     <!-- Ex -->
     <script src="js/custom.js"></script>
     <!-- //Ex -->
+     
 
 </body>
 

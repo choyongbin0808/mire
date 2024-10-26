@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /* **************************************** */
 /* description : 미래유망 온다쌤
@@ -73,7 +74,22 @@ header{border-bottom:1px solid #ccc;}
         margin:0 auto;
     }
 }
+/* sigiin01.html */
+.customHidden{
+    position: absolute;
+    left: -9999999px
+}
+/* //sigiin01.html */
 
+#holo{
+    height: 70px;
+}
+#holo #holo1{
+    margin-top: 5px;
+}
+#holo #holo2{
+    margin-top: 15px;
+}
 h1 span{
     font-size: 25px;
     font-weight: 40;
@@ -87,6 +103,7 @@ h1 span{
     text-align: center;
     color: hotpink;
     font-size: 50px;
+    margin-top: 15px;
 }
 #charimg{
     padding-left: 200px;
@@ -97,7 +114,201 @@ h1 span{
 #chardetail span{
     font-size: 25px;
 }
-
-nav{
+/* sbmain */
+#sbmainpc{
+    width: 100%;
+    height: 500px;
+}
+#ybsb{
+    margin-top: 80px;
+    padding-left: 100px;
+}
+#sbmainpc .sbmain /*span tag*/{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#sbmainpc nav{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #35353594;
+    font-size: 15px;
+    font-weight: 1000;
     height: 56px;
+}
+#ybpt{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+#PS{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+#photoshop .art{
+    display: block;
+    margin-top: 120px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+#photoshop nav{
+    font-size: 25px;
+}
+#figma{
+    margin-top: 70px;
+    margin-left: 60px;
+}
+#figmatool span{
+    display: block;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+#figmatool nav{
+    display: block;
+    color: white;
+    font-size: 23px;
+
+}
+#websd span{
+font-size: 50px;
+font-weight: bolder;
+color: white;
+padding-left: 28px;
+}
+#websd .lol{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0;
+}
+#websd .valo{
+    font-size: 15px;
+    color: white;
+    padding-left: 60px;
+}
+#websd img{
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#websd .textwrap{
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#websd .bg-secondaryvs{
+    position: relative;
+    height: 430px;
+}
+.bc{
+    background:rgba(0, 0, 0, 0.4) ;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+#great{
+    margin-top: 70px;
+    font-size: 15px;
+}
+#phone{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#winner #amg{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgba(216, 89, 16, 0.815);
+}
+#amg span{
+    color: rgb(255, 0, 179);
+}
+#winner img{
+    border-radius: 70%;
+    display: block;
+}
+#visual #moning{
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-right: 0;
+    margin-top: 20px;
+}
+#moning p{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+}
+#visual #program{
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-left: 3rem;
+    margin-right: 3rem;;
+}
+#program p{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+}
+#visual #class{
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-top: 20px;
+}
+#class p{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: centera;
+}
+hr{
+    margin: 0;
+}
+.mire{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.calling{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.site{
+    font-size: 12px;
+}
+.copy{
+    font-size: 17px;
+    font-weight: bolder;
+}
+#fto{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#fto .logo{
+    margin-right: 20px;
+}
+#ftt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#ftt .icon{
+    margin-left: 50px;
+}
+.icon #kakao{
+    margin-right: 10px;
+}
+.icon #insta{
+    margin-right: 10px;
 }
