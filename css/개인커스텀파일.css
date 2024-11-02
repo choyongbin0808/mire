@@ -74,25 +74,23 @@ header{border-bottom:1px solid #ccc;}
         margin:0 auto;
     }
 }
-/* sigiin01.html */
 .customHidden{
     position: absolute;
     left: -9999999px
 }
-/* //sigiin01.html */
-
 #holo{
     height: 70px;
-}
-#holo #holo1{
-    margin-top: 5px;
 }
 #holo #holo2{
     margin-top: 15px;
 }
+#holo1 h1 img{
+    border-radius: 70%;
+    margin-top: 10px;
+}
 h1 span{
     font-size: 25px;
-    font-weight: 40;
+    font-weight: bold;
     line-height: 30px;
 }
 
@@ -113,17 +111,18 @@ h1 span{
 }
 #chardetail span{
     font-size: 25px;
+    display: block;
+    margin-bottom: 10px;
 }
-/* sbmain */
 #sbmainpc{
     width: 100%;
     height: 500px;
 }
 #ybsb{
     margin-top: 80px;
-    padding-left: 100px;
+    padding-left: 250px;
 }
-#sbmainpc .sbmain /*span tag*/{
+#sbmainpc .sbmain{
     font-size: 30px;
     font-weight: bolder;
 }
@@ -131,30 +130,29 @@ h1 span{
     margin-top: 25px;
     margin-bottom: 25px;
     color: #35353594;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 1000;
     height: 56px;
 }
 #ybpt{
     margin-top: 70px;
-    margin-left: 70px;
 }
-#PS{
+#HL{
     margin-top: 70px;
-    margin-left: 70px;
+    margin-left: 110px;
 }
-#photoshop .art{
+#HTML5 .art{
     display: block;
     margin-top: 120px;
     font-size: 40px;
     font-weight: bolder;
 }
-#photoshop nav{
+#HTML5 nav{
     font-size: 25px;
 }
 #figma{
     margin-top: 70px;
-    margin-left: 60px;
+    margin-left: 10px;
 }
 #figmatool span{
     display: block;
@@ -162,6 +160,7 @@ h1 span{
     color: white;
     font-weight: bolder;
     margin-top: 130px;
+    margin-bottom: 30px;
     margin-left: 30px;
 }
 #figmatool nav{
@@ -216,11 +215,12 @@ padding-left: 28px;
 }
 #great{
     margin-top: 70px;
-    font-size: 15px;
+    font-size: 17px;
 }
 #phone{
     margin-top: 70px;
     margin-bottom: 70px;
+    text-align: center;
 }
 #winner #amg{
     margin-top: 50px;
@@ -255,6 +255,7 @@ padding-left: 28px;
     margin: 0 auto;
     margin-left: 3rem;
     margin-right: 3rem;;
+    margin-top: 20px;
 }
 #program p{
     font-size: 17px;
@@ -267,6 +268,7 @@ padding-left: 28px;
     margin: 0 auto;
     margin-left: 0;
     margin-top: 20px;
+    text-align: center;
 }
 #class p{
     font-size: 17px;
