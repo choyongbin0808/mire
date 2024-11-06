@@ -116,3 +116,26 @@ document.addEventListener('DOMContentLoaded', () => {
         toggleButton.addEventListener('click', toggleTheme);
     }
 });
+
+
+// qwer
+window.addEventListener("scroll", function(){
+    const headerBackground=document.querySelector("header");
+    const headerText=document.querySelectorAll("header nav a");
+    const headerLogo=document.querySelector("header #holo1 span");
+  
+    if(document.documentElement.scrollTop<700){
+      headerBackground.style.backgroundColor="#fff";
+      headerText.forEach(element => {
+        element.classList.toggle("headerActive", false);
+      });
+      headerLogo.style.color="#000";
+    }
+    else{
+      headerBackground.style.backgroundColor="#000";
+      headerText.forEach(element => {
+        element.classList.toggle("headerActive", true);
+      });
+      headerLogo.style.color="#fff";
+    }
+  });

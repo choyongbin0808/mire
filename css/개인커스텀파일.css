@@ -13,7 +13,22 @@
 /* 윈도우 사이즈 출력 */
 #resolution{position:fixed;left:50%;top:50%;transform:translate(-50%, -50%);font-size:60px;color:red;}
 
-header{border-bottom:1px solid #ccc;}
+header{
+    border-bottom:1px solid #ccc;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+
+    background-color: #fff;
+    transition: background-color 0.35s;
+}
+
+header nav a.headerActive{
+    color: #fff !important;
+}
 
 /* ********************************************************* */
 /* 반응형 Mobile 우선 그리드 시스템
@@ -83,6 +98,7 @@ header{border-bottom:1px solid #ccc;}
 }
 #holo #holo2{
     margin-top: 15px;
+    font-weight: 800;
 }
 #holo1 h1 img{
     border-radius: 70%;
@@ -92,16 +108,44 @@ h1 span{
     font-size: 25px;
     font-weight: bold;
     line-height: 30px;
+
+    color: #000;
+
+    transition: color 0.35s;
+
 }
 
-#have{
-    text-align: center; padding-top: 50px;
+header nav a{
+    color: #000;
+    transition: color 0.35s;
 }
-#have2{
-    text-align: center;
-    color: hotpink;
-    font-size: 50px;
-    margin-top: 15px;
+
+#bgpc{
+    background: linear-gradient(rgba(255, 179, 39, 0.3), rgba(10, 10, 10, 1)), url(/img/programbg.png) no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 850px;
+}
+#sogae{
+    text-align: center; padding-top: 100px;
+}
+#dream{
+    padding-top: 200px;
+    font-size: 45px;
+    font-weight: 800;
+}
+#mn{
+    padding-top: 70px;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+
+#have{
+    text-align: center; padding-top: 100px;
+    padding-bottom: 50px;
+    color: rgb(248, 161, 0);
 }
 #charimg{
     padding-left: 200px;
@@ -110,33 +154,12 @@ h1 span{
     padding-left: 100px;
 }
 #chardetail span{
-    font-size: 25px;
+    font-size: 30px;
     display: block;
     margin-bottom: 10px;
+    font-weight: 800;
 }
-#sbmainpc{
-    width: 100%;
-    height: 500px;
-}
-#ybsb{
-    margin-top: 80px;
-    padding-left: 250px;
-}
-#sbmainpc .sbmain{
-    font-size: 30px;
-    font-weight: bolder;
-}
-#sbmainpc nav{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    color: #35353594;
-    font-size: 17px;
-    font-weight: 1000;
-    height: 56px;
-}
-#ybpt{
-    margin-top: 70px;
-}
+
 #HL{
     margin-top: 70px;
     margin-left: 110px;
